@@ -17,3 +17,11 @@ nmap -sV -p 21,22,80,445,139 192.168.56.101
 ```
 
 ![Evidência do teste de varredura](../assets/img/varredura-sucesso.png)
+
+Para confirmar que o serviço FTP está ativo, é feito um acesso direto na máquina alvo com o seguinte comando:
+
+```bash
+ftp 192.168.56.101
+```
+
+![Evidência da confirmação de acesso](../assets/img/varredura-confirmacao.png)
