@@ -5,5 +5,6 @@ Confirmou-se que a máquina alvo (**Metasploitable 2** - `192.168.56.101`) está
 
 ```bash
 ping 192.168.56.101
+```
 
 ![Evidência do teste de ping](../assets/img/ping-sucesso.png)
