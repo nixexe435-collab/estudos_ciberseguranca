@@ -20,11 +20,11 @@ O ambiente foi isolado em uma infraestrutura virtualizada utilizando o Oracle Vi
 
 ## Relatório Técnico Detalhado
 A documentação deste projeto foi dividida de forma modular em relatórios específicos por fase de execução:
-1- **[Fase 1: Reconhecimento e Mapeamento de Rede](docs/01-reconhecimento.md)**
+1. **[Fase 1: Reconhecimento e Mapeamento de Rede](docs/01-reconhecimento.md)**
    * Detecção de hosts ativos e identificação do serviço SMB ('445/tcp') com Nmap.
 
-2- **[Fase 2: Execução de Ataque de Força Bruta](docs/02-forca_bruta.md)**
+2. **[Fase 2: Execução de Ataque de Força Bruta](docs/02-forca_bruta.md)**
    * Preparação das wordlists de utilizadores/senhas e automatização das tentativas via Medusa.
 
-3- **[Fase 3: Validação do Acesso e Prova de Conceito (PoC)](docs/03-validacao_poc.md)**
+3. **[Fase 3: Validação do Acesso e Prova de Conceito (PoC)](docs/03-validacao_poc.md)**
    * Confirmação das credenciais válidas e enumeração de partilhas de rede com smbclient.
